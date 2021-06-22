@@ -1,0 +1,27 @@
+/*
+Theme Name: Coldebtcoin.
+Description: Primer prototipo de la página de COLDEBTCOIN.
+Author: Juan Diego Salcedo.
+Author URI: https://github.com/salcedogg
+*/
+:root{
+    /* debo definir los colores con el Designer */
+    --primary-color:;
+    --secundary-color:;
+    --header-size:4rem;
+    --font:1.8rem;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100vw;
+    height: 15vw;
+    /* recordar poner color al background */
+    background-color: var(--primary-color);
+}
